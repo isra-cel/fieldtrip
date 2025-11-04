@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>   <link href="/FieldTripForm/form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+<div class="maindiv">
+
+    <div class="topdiv">
+        <p class="schoolname">EMILY CARR TRIP FORM</p>
+    </div>
+
+    <div class="uppertextdiv">
+       <p class="title">Museum Field Trip</p>
+
+       <p class="dateplace">Date: not desided yet <br> <span>Destination: Scugog Shores Museum</span></p>
+
+       <p class="info">Join us for an exciting and educational trip to the Scugog Shores Museum,
+  where we will learn about Indigenous cultures and explore their culture,
+  history, and ongoing journey toward reconciliation.</p>
+    </div>
+    
+   
+    <div class="lowerdiv">
+        <p class="paymenttitle">Trip Payment Details</p>
+
+        <input type="text" class="nameinput" placeholder="Student Name">
+        <input type="number" class="numberinput" placeholder="Student Number">
+
+        <p class="cardtext">Card Number</p>
+        <input type="number" placeholder="1234 1234 1234 1234" class="numberinput">
+
+
+
+        <div class="twodiv">
+          <div class="datediv">
+            <p class="datetext">Expireation</p>
+            <input type="text" placeholder="MM/DD" class="dateinput">
+          </div>
+        
+          <div class="cvvdiv">
+            <p class="cvvtext">CVV</p>
+            <input type="number" placeholder="123" class="cvvinput">
+          </div>
+        </div>
+
+      <div class="pricediv">
+        <p class="museum">Museum Cost <span >$5.75</span></p>
+        <p class="cost">Busing Cost <span>$12.50</span></p>
+        <p class="total">Total <span>$18.25</span></p>
+      </div>
+
+        <button class="paybtn" onclick="alert()">Confirm Payment</button>
+
+        <p class="alert" id="alert"></p>
+    </div>
+    
+
+
+
+</div>
+
+
+
+<script src="/FieldTripForm/form.js"></script>
+</body>
+</html>

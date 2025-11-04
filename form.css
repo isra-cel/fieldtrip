@@ -1,0 +1,224 @@
+body
+{
+   margin: 0px;
+   padding: 0px;
+   
+}
+
+.maindiv
+{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);   
+   background-color: rgb(255, 255, 255);
+   width: 500px;
+   height: 950px;
+   border-radius: 15px;
+   box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.226);
+   display: flex;
+   flex-direction: column;
+   margin-top: 80px;
+}
+
+.topdiv
+{
+    background-color: rgb(44, 56, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.schoolname
+{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(231, 227, 227);
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+.uppertextdiv
+{
+    
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
+.title
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 43px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.dateplace
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.info
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: start;
+    line-height: 23px;
+    margin-bottom: 0px;
+}
+
+.lowerdiv
+{
+    
+    text-align: center;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.paymenttitle
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 13px;
+    
+}
+
+.nameinput
+{
+    border-radius: 5px;
+    border: solid 1px rgb(174, 174, 174);
+    height: 38px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.numberinput
+{
+    border-radius: 5px;
+    border: solid 1px rgb(174, 174, 174);
+    height: 38px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.cardtext
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0px;
+}
+
+.numberinput
+{
+    border-radius: 5px;
+    border: solid 1px rgb(174, 174, 174);
+    height: 38px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.twodiv
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    gap: 28px;
+}
+
+.datetext, .cvvtext
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.dateinput, .cvvinput
+{
+    border-radius: 5px;
+    border: solid 1px rgb(174, 174, 174);
+    height: 38px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.museum, .cost
+{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+.total
+{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border-top: solid 1px rgb(71, 71, 71);
+    margin-bottom: 25px;
+}
+
+.paybtn
+{
+    border-radius: 7px;
+    background-color: #ffc832;
+    border: 0px;
+    height: 50px;
+    font-size: 17px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.alert
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+
+
+
+
